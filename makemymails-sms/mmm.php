@@ -2,7 +2,6 @@
 
 
 class MMM {
-    
     public $apikey;
     public $msg;
     public $sms_to;
@@ -28,7 +27,6 @@ class MMM {
                            "sms_body" => $this->msg
                            );
 
-        
         $ch = curl_init();
 
         //set the url, number of POST vars, POST data

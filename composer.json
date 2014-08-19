@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "API client library for the MakeMyMails sms",
     "keywords": ["sms", "api"],
-    "homepage": "https://github.org/tarzzz/makemymails-sms-php",
+    "homepage": "https://github.org/makemymails/makemymails-sms-php",
     "authors": [{"name": "MakeMyMails Devs", "homepage": "http://makemymails.com"}],
     "require": {
         "php": ">=5.2.0"

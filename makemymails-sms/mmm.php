@@ -8,11 +8,11 @@ class MMM {
     public $device_id;
     public $url = "http://www.makemymails.com/sms/api-single-sms/";
     public function __construct($apikey=null, $device_id=null) {
-        if(!$apikey) $apikey = getenv('MMM_APIKEY');
+        if(!$apikey) $apikey = getenv('MMM_API_KEY');
         if(!$apikey) throw new Error('You must provide a MMM API key');
         $this->apikey = $apikey;
 
-        if(!$device_id) $apikey = getenv('MMM_device_id');
+        if(!$device_id) $apikey = getenv('MMM_DEVICE_ID');
         if(!$device_id) throw new Exception('You must provide a MMM device id');
         $this->device_id = $device_id;
     }

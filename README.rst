@@ -16,12 +16,15 @@ Installing via Composer:
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use composer to install makemymails-sms. To install composer:
+
 .. code-block:: bash
 
     curl -s http://getcomposer.org/installer | php
 
 Now, Create a `composer.json` at the base of the project's root directory to
 hold your dependencies:
+
+.. code-block:: bash
 
     {
         "require": {
@@ -31,14 +34,18 @@ hold your dependencies:
 
 Then use the composer.phar script to install the dependency
 
+.. code-block:: bash
+
     php composer.phar install
 
 Installing from zip release:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  - Download the `latest release`_
-  - Unpack the zip file.
-  - Move the files somewhere in your project. Then you can use the API by using `require_once` call:
+- Download the `latest release`_
+- Unpack the zip file.
+- Move the files somewhere in your project. Then you can use the API by using `require_once` call:
+
+.. code-block:: php
 
     require_once 'location-of-source/makemymails-sms/mmm.php';
 
